@@ -729,3 +729,38 @@ html {
     border: solid 7px white;
   }
 }
+/* .home img {
+  position: absolute;
+  right: 1%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 50vh;
+  filter: brightness(1.05) contrast(1.05) drop-shadow(0 0 10px black);
+  width: 450px;
+  height: 400px;
+} */
+.ban_ttl {
+  font-size: 40px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #3498db;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  /* {
+    position: static;
+    display: block;
+    transform: translateY(-50%);
+    height: 50vh;
+    filter: brightness(1.05) contrast(1.05) drop-shadow(0 0 10px black);
+    width: 450px;
+    hei.home imgght: 400px;
+  } */
+}
